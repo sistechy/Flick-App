@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39776B9E9303CB853041025D /* Pods_Flick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E738C0D5FB3B9F35E76951A6 /* Pods_Flick.framework */; };
+		9A3525BA24C2FED40098C6E1 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3525B324C2FED30098C6E1 /* CustomCollectionViewCell.swift */; };
+		9A3525BB24C2FED40098C6E1 /* SAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3525B424C2FED30098C6E1 /* SAButton.swift */; };
+		9A3525BC24C2FED40098C6E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3525B524C2FED30098C6E1 /* Constants.swift */; };
+		9A3525BD24C2FED40098C6E1 /* PDFDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3525B624C2FED30098C6E1 /* PDFDetailViewController.swift */; };
+		9A3525BE24C2FED40098C6E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3525B724C2FED30098C6E1 /* ViewController.swift */; };
+		9A3525BF24C2FED40098C6E1 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3525B824C2FED40098C6E1 /* ImageDetailViewController.swift */; };
+		9A3525C024C2FED40098C6E1 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3525B924C2FED40098C6E1 /* Utilities.swift */; };
+		9A3525C424C2FF3D0098C6E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3525C324C2FF3D0098C6E1 /* Assets.xcassets */; };
+		9A3525C624C300060098C6E1 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3525C524C300060098C6E1 /* Album.swift */; };
+		9AE719EA24C2F95400362DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE719E924C2F95400362DFB /* AppDelegate.swift */; };
+		9AE719F924C2F95C00362DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE719F724C2F95C00362DFB /* LaunchScreen.storyboard */; };
+		9AE71A0B24C2FC8300362DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE71A0A24C2FC8300362DFB /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		957510C5C3EEA5A5FAC65909 /* Pods-Flick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flick.release.xcconfig"; path = "Target Support Files/Pods-Flick/Pods-Flick.release.xcconfig"; sourceTree = "<group>"; };
+		9A3525B324C2FED30098C6E1 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		9A3525B424C2FED30098C6E1 /* SAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAButton.swift; sourceTree = "<group>"; };
+		9A3525B524C2FED30098C6E1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9A3525B624C2FED30098C6E1 /* PDFDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFDetailViewController.swift; sourceTree = "<group>"; };
+		9A3525B724C2FED30098C6E1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A3525B824C2FED40098C6E1 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		9A3525B924C2FED40098C6E1 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		9A3525C324C2FF3D0098C6E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A3525C524C300060098C6E1 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		9AE719E624C2F95400362DFB /* Flick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE719E924C2F95400362DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AE719F824C2F95C00362DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AE719FA24C2F95C00362DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE71A0A24C2FC8300362DFB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DD26D70D076D04CE2650DBF2 /* Pods-Flick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flick.debug.xcconfig"; path = "Target Support Files/Pods-Flick/Pods-Flick.debug.xcconfig"; sourceTree = "<group>"; };
+		E738C0D5FB3B9F35E76951A6 /* Pods_Flick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AE719E324C2F95400362DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39776B9E9303CB853041025D /* Pods_Flick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320E8BE4E5ED75D2A8A57C93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E738C0D5FB3B9F35E76951A6 /* Pods_Flick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AE719DD24C2F95400362DFB = {
+			isa = PBXGroup;
+			children = (
+				9AE719E824C2F95400362DFB /* Flick */,
+				9AE719E724C2F95400362DFB /* Products */,
+				A415C9626ECC89552541BF06 /* Pods */,
+				320E8BE4E5ED75D2A8A57C93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AE719E724C2F95400362DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AE719E624C2F95400362DFB /* Flick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AE719E824C2F95400362DFB /* Flick */ = {
+			isa = PBXGroup;
+			children = (
+				9A3525C524C300060098C6E1 /* Album.swift */,
+				9A3525B524C2FED30098C6E1 /* Constants.swift */,
+				9A3525B324C2FED30098C6E1 /* CustomCollectionViewCell.swift */,
+				9A3525B824C2FED40098C6E1 /* ImageDetailViewController.swift */,
+				9A3525B624C2FED30098C6E1 /* PDFDetailViewController.swift */,
+				9A3525B424C2FED30098C6E1 /* SAButton.swift */,
+				9A3525B924C2FED40098C6E1 /* Utilities.swift */,
+				9A3525B724C2FED30098C6E1 /* ViewController.swift */,
+				9AE719E924C2F95400362DFB /* AppDelegate.swift */,
+				9AE719F724C2F95C00362DFB /* LaunchScreen.storyboard */,
+				9AE71A0A24C2FC8300362DFB /* Main.storyboard */,
+				9AE719FA24C2F95C00362DFB /* Info.plist */,
+				9A3525C324C2FF3D0098C6E1 /* Assets.xcassets */,
+			);
+			path = Flick;
+			sourceTree = "<group>";
+		};
+		A415C9626ECC89552541BF06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD26D70D076D04CE2650DBF2 /* Pods-Flick.debug.xcconfig */,
+				957510C5C3EEA5A5FAC65909 /* Pods-Flick.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AE719E524C2F95400362DFB /* Flick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE719FD24C2F95C00362DFB /* Build configuration list for PBXNativeTarget "Flick" */;
+			buildPhases = (
+				B31924EA6BFAB487ED691941 /* [CP] Check Pods Manifest.lock */,
+				9AE719E224C2F95400362DFB /* Sources */,
+				9AE719E324C2F95400362DFB /* Frameworks */,
+				9AE719E424C2F95400362DFB /* Resources */,
+				F45C12596792E5F5048A01B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flick;
+			productName = Flick;
+			productReference = 9AE719E624C2F95400362DFB /* Flick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AE719DE24C2F95400362DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Vidhya C";
+				TargetAttributes = {
+					9AE719E524C2F95400362DFB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 9AE719E124C2F95400362DFB /* Build configuration list for PBXProject "Flick" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AE719DD24C2F95400362DFB;
+			productRefGroup = 9AE719E724C2F95400362DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AE719E524C2F95400362DFB /* Flick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AE719E424C2F95400362DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE719F924C2F95C00362DFB /* LaunchScreen.storyboard in Resources */,
+				9A3525C424C2FF3D0098C6E1 /* Assets.xcassets in Resources */,
+				9AE71A0B24C2FC8300362DFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B31924EA6BFAB487ED691941 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flick-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F45C12596792E5F5048A01B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flick/Pods-Flick-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flick/Pods-Flick-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flick/Pods-Flick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AE719E224C2F95400362DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3525BE24C2FED40098C6E1 /* ViewController.swift in Sources */,
+				9A3525BD24C2FED40098C6E1 /* PDFDetailViewController.swift in Sources */,
+				9A3525BF24C2FED40098C6E1 /* ImageDetailViewController.swift in Sources */,
+				9AE719EA24C2F95400362DFB /* AppDelegate.swift in Sources */,
+				9A3525BB24C2FED40098C6E1 /* SAButton.swift in Sources */,
+				9A3525C624C300060098C6E1 /* Album.swift in Sources */,
+				9A3525BA24C2FED40098C6E1 /* CustomCollectionViewCell.swift in Sources */,
+				9A3525C024C2FED40098C6E1 /* Utilities.swift in Sources */,
+				9A3525BC24C2FED40098C6E1 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AE719F724C2F95C00362DFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE719F824C2F95C00362DFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AE719FB24C2F95C00362DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AE719FC24C2F95C00362DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AE719FE24C2F95C00362DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD26D70D076D04CE2650DBF2 /* Pods-Flick.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X345LXTDS8;
+				INFOPLIST_FILE = Flick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistechy.Flick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AE719FF24C2F95C00362DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957510C5C3EEA5A5FAC65909 /* Pods-Flick.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X345LXTDS8;
+				INFOPLIST_FILE = Flick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistechy.Flick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AE719E124C2F95400362DFB /* Build configuration list for PBXProject "Flick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE719FB24C2F95C00362DFB /* Debug */,
+				9AE719FC24C2F95C00362DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE719FD24C2F95C00362DFB /* Build configuration list for PBXNativeTarget "Flick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE719FE24C2F95C00362DFB /* Debug */,
+				9AE719FF24C2F95C00362DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AE719DE24C2F95400362DFB /* Project object */;
+}
